@@ -9,12 +9,14 @@ public Class Geohash {
 
 
   public static String geohash(lat, lon, precision) {
-    // find bin for lat and lon and 'label' it with binary
+    // find column for lat and 'label' it with binary
+
+    // find row for lon and 'label' it with binary
 
     // interleave (alternate) the lat and lon bits
 
     // encode the resulting number in base 32 (easier to use than a big long binary string!)
 
-    return "";
+    return Null;
   }
 }
