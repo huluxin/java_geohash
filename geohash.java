@@ -1,14 +1,11 @@
 public Class Geohash {
-  // define some variables:
-    // characters for encoding
+  // characters for encoding
   private static final String BASE_32 = "0123456789bcdefghjkmnpqrstuvwxyz"
 
-    // ranges - for finding the bin a coordinate belongs to
-  private static final double[] lat_range = [-90, 90]
-  private static final double[] lon_range = [-180, 180]
-
-
   public static String geohash(lat, lon, precision) {
+    double[] latRange = new double[]{-90.0, 90.0};
+    double[] lonRange = new double[]{-180.0, 180.0};
+
     // find column for lat and 'label' it with binary
 
     // find row for lon and 'label' it with binary
