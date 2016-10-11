@@ -52,10 +52,10 @@ public class Geohash {
     int latBits = divideRange(lat, latRange);
 
     // interleave (alternate) the lat and lon bits
-    long latLonBin = interleave(lonBits, latBits);
+    long lonLatBin = interleave(lonBits, latBits);
 
     // encode the resulting number in base 32 (easier to use than a big long binary string!)
-    String finalHash = encodeBits(latLonBin);
+    String finalHash = encodeBits(lonLatBin);
 
     return finalHash;
   }
