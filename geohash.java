@@ -6,11 +6,11 @@ public Class Geohash {
     double[] latRange = new double[]{-90.0, 90.0};
     double[] lonRange = new double[]{-180.0, 180.0};
 
-    // find column for lat and 'label' it with binary
+    // find column for lon and 'label' it with binary
 
-    // find row for lon and 'label' it with binary
+    // find row for lat and 'label' it with binary
 
-    // interleave (alternate) the lat and lon bits
+    // interleave (alternate) the lon and lat bits
 
     // encode the resulting number in base 32 (easier to use than a big long binary string!)
 
