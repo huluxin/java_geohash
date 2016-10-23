@@ -16,4 +16,10 @@ public Class Geohash {
 
     return Null;
   }
+
+  public static void main(String[] args) {
+    String hash1 = geohash(52.61911, -10.40744, 12);
+    System.out.println(hash1);
+  }
+
 }
