@@ -15,7 +15,6 @@ public class Geohash {
         range[1] = bisector;
       }
     }
-    System.out.println(label);
     return label;
   }
 
